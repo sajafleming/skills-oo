@@ -1,0 +1,44 @@
+Answer each question in your own words.
+
+What are the three main design advantages that object orientation can provide?
+    
+    Abstraction - keeping unessesary parts of code hidden. For example, you can
+                  have a function that calculates the derivative but at any
+                  given time you don't necessarily need to see how the derivatitve
+                  is calculated, but you can still use this function because you 
+                  know it will return the derivative.
+    Polymorphism - an object can inherit from other classes. For example, if you 
+                   have a Cat class with a parent class of Pet, the Cat will be able to do whatever a Pet can do. 
+    Encapsulation - keeps everything that is needed together and hides what is not
+                    needed. For example, if you import a .py file that imports from
+                    a certain library, you will not need to reimport that library
+                    because your file already knows how to get what it needs. 
+
+
+Explain each concept.
+
+What is a class?
+
+    A class is like a template to create an object. The class is not something in itself but it describes how to make something. A class can also have methods which are functions that can be used on any instance of that class. You can create an instance of a class and then perform actions on it using methods. 
+
+What is an instance attribute?
+    
+    An instance attribute is an attribute that belongs to an instance of a class.
+    Any attribute in the __init__ method is an instance attribute and is assigned upon instantiation.
+
+What is a method?
+
+    A method is a function that belongs to a certain object. For example, the
+    .sort() method can be used on lists but not dictionaries. The method is an attribute to list objects.  
+
+What is an instance in object orientation?
+
+    An instance is an actual thing whereas a class is an idea of something. If you have a Cat class and create a cat named "Captain Sassy Pants", "Captian Sassy Pants" is now an instance of the Cat object.
+
+How is a class attribute different than an instance attribute? Give an example of when you might use each.
+
+    Instance attributes take precedence over class attributes. If you have a Dog class, you might have a default class attribute of type = "dog". If an instance does not specify a type, it will use the class default of "dog". However, if you create an instance of Dog and name it "Snoopy", you might want to be more specific and so you set the instance attribute to type = "beagle". 
+
+
+
+
